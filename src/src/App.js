@@ -7,9 +7,10 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <React.Fragment>
           <Header />
-        </div>
+          <div className="App">hi</div>
+        </React.Fragment>
       </Router>
     );
   }

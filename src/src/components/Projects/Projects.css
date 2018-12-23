@@ -1,0 +1,7 @@
+.projects-ctn{
+    display: flex;
+    flex-flow: column nowrap;
+    color:black;
+    border: 2px solid white;
+    margin-top: 50px;
+}

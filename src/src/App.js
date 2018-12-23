@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/Header/Header";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
 import "./App.css";
 
 class App extends Component {
@@ -9,7 +11,10 @@ class App extends Component {
       <Router>
         <React.Fragment>
           <Header />
-          <div className="App">hi</div>
+          <div className="App">
+            <About />
+            <Projects />
+          </div>
         </React.Fragment>
       </Router>
     );

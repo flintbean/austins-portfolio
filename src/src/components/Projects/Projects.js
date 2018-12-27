@@ -32,7 +32,14 @@ const projects = [
     name: "Conways Game of Life",
     link: "https://flintbean.github.io/Conways-Life/",
     description:
-      "Site that shows cell replication using the rules from Conways Game of Life. Done completely in React and deployed to gitpages"
+      "Web app that shows cell replication using the rules from Conways Game of Life. Done completely in React and deployed to gitpages"
+  },
+  {
+    id: 3,
+    name: "Lambda Mud",
+    link: "https://github.com/flintbean/front-end-project-week",
+    description:
+      "Mud game using React for front-end and Python(Django) for back-end. Sockets are used for real-time chat between players"
   }
 ];
 export default Projects;

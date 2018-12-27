@@ -7,6 +7,7 @@ class Projects extends React.Component {
     super(props);
     this.state = {};
   }
+
   render() {
     return (
       <div className="projects-ctn">
@@ -42,4 +43,5 @@ const projects = [
       "Mud game using React for front-end and Python(Django) for back-end. Sockets are used for real-time chat between players"
   }
 ];
+
 export default Projects;

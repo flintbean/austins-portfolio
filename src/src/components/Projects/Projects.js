@@ -1,5 +1,8 @@
 import React from "react";
 import ProjectInstance from "./ProjectInstance";
+import conways from '../../assets/conways.png'
+import lambdamud from '../../assets/lambdamud.png'
+import teamcomm from '../../assets/Teamcomm.png'
 import "./Projects.css";
 
 class Projects extends React.Component {
@@ -27,6 +30,7 @@ const projects = [
     id: 1,
     name: "Teamcomm",
     link: "https://www.teamcomm.app/landing",
+    img: teamcomm,
     description:
       "A web app that helps distributed or remote teams with real-time document collaboration and scheduling meetings. Team Communicator is built with a React/Redux frontend (deployed to Netlify) and Node/Express backend (deployed to Heroku)."
   },
@@ -34,13 +38,15 @@ const projects = [
     id: 2,
     name: "Conways Game of Life",
     link: "https://flintbean.github.io/Conways-Life/",
+    img: conways,
     description:
       "Web app that shows cell replication using the rules from Conways Game of Life. Done completely in React and deployed to gitpages"
   },
   {
     id: 3,
     name: "Lambda Mud",
-    link: "https://github.com/flintbean/front-end-project-week",
+    link: "https://lambdamud.austinmerando.com/",
+    img: lambdamud,
     description:
       "Mud game using React for front-end and Python(Django) for back-end. Sockets are used for real-time chat between players"
   }

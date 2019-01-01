@@ -6,7 +6,7 @@ class About extends React.Component {
     this.state = {};
   }
   render() {
-    return <div className="about-ctn">Fullstack Web Developer who loves Javascript</div>;
+    return <div className="about-ctn">Fullstack Web Developer</div>;
   }
 }
 

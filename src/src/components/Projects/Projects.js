@@ -20,6 +20,8 @@ class Projects extends React.Component {
   }
 }
 
+export default Projects;
+
 const projects = [
   {
     id: 1,
@@ -44,4 +46,3 @@ const projects = [
   }
 ];
 
-export default Projects;

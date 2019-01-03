@@ -1,4 +1,5 @@
 import React from "react";
+//TODO: Enlarge image on click
 
 const ProjectInstance = props => {
   return (
@@ -11,7 +12,7 @@ const ProjectInstance = props => {
       </a>
       <p>{props.project.description}</p>
       <img
-        style={{ width: "300px", height: "200px" }}
+        style={{ width: "500px", height: "400px" }}
         src={props.project.img}
         alt={props.project.name}
       />

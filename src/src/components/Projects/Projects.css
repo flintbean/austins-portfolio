@@ -1,4 +1,5 @@
 .projects-ctn{
+    width: 100%;
     display: flex;
     flex-flow: column nowrap;
     border: 2px solid white;

@@ -1,7 +1,32 @@
-.projects-ctn{
-    width: 100%;
-    display: flex;
-    flex-flow: column nowrap;
-    border: 2px solid white;
-    margin-top: 50px;
+.projects-ctn {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  border: 2px solid #ffffff;
+  margin-top: 50px;
+}
+
+.project {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+}
+.rev-project {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 50px;
+}
+.text-title {
+  padding: 15%;
+}
+.project-title {
+  width: 100%;
+  order: 0;
+}
+.project-pic {
+  width: 500px;
+  height: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 25px;
 }

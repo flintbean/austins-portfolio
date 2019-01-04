@@ -1,18 +1,22 @@
 import React from "react";
+import "./Projects.css";
 //TODO: Enlarge image on click
 
 const ProjectInstance = props => {
   return (
-    <div>
-      <a
-        href={props.project.link}
-        style={{ textDecoration: "none", color: "#FF0000" }}
-      >
-        {props.project.name}
-      </a>
-      <p>{props.project.description}</p>
+    <div className={props.project.id % 2 === 0 ? "project" : "rev-project"}>
+      <div className="text-title">
+        <a
+          className="project-title"
+          href={props.project.link}
+          style={{ textDecoration: "none", color: "#FF0000" }}
+        >
+          {props.project.name}
+        </a>
+        <p>{props.project.description}</p>
+      </div>
       <img
-        style={{ width: "500px", height: "400px" }}
+        className="project-pic"
         src={props.project.img}
         alt={props.project.name}
       />

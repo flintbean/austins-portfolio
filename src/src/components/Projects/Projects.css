@@ -9,12 +9,12 @@
 .project {
   display: flex;
   justify-content: flex-start;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .rev-project {
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .text-title {
   padding: 15% 6%;
@@ -25,7 +25,7 @@
 }
 .project-pic {
   width: 500px;
-  height: 500px;
+  height: 400px;
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 25px;

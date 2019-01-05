@@ -16,7 +16,6 @@ class App extends Component {
     this.setState({ hamburger: !this.state.hamburger });
   };
   render() {
-    console.log(this.state.hamburger);
     return (
       <Router>
         <React.Fragment>

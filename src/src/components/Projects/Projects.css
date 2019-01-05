@@ -17,8 +17,10 @@
   margin-bottom: 20px;
 }
 .text-title {
+  width: 550px;
   padding: 10% 6%;
   font-size: 1.2rem;
+  line-height: 12 * 1.618;
 }
 .project-title {
   width: 100%;

@@ -21,7 +21,10 @@ class App extends Component {
       <Router>
         <React.Fragment>
           {this.state.hamburger ? (
-            <Header hamSwitch={this.hamburgerSwitch} />
+            <React.Fragment>
+              <Header hamSwitch={this.hamburgerSwitch} />
+              <div className="hamburger-exit" onClick={this.hamburgerSwitch}>X</div>
+            </React.Fragment>
           ) : (
             <div className="hamburger-ctn" onClick={this.hamburgerSwitch}>
               <div className="hamburger-bar" />

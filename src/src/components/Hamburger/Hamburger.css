@@ -1,0 +1,19 @@
+.hamburger-exit {
+  position: fixed;
+  color: white;
+  right: 20px;
+  top: 0px;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.hamburger-ctn {
+  position: fixed;
+  right: 20px;
+  top: 1px;
+}
+.hamburger-bar {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 5px 0;
+}

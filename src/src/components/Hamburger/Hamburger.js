@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import '../../App.css'
+import './Hamburger.css'
 
 const Hamburger = props => {
   return (

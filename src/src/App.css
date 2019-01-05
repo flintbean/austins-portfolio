@@ -15,6 +15,17 @@
 .App-link {
   color: #61dafb;
 }
+.hamburger-ctn {
+  position: fixed;
+  right: 20px;
+  top: 1px;
+}
+.hamburger-bar {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 5px 0;
+}
 
 @keyframes App-logo-spin {
   from {

@@ -12,10 +12,16 @@ class Header extends React.Component {
     return (
       <div className="header-ctn">
         <Link to="/" style={{ textDecoration: "none" }}>
-          <div className="nav-link">Home</div>
+          <div className="nav-link" onClick={this.props.hamSwitch}>
+            Home
+          </div>
         </Link>
-        <div className="nav-link">About</div>
-        <div className="nav-link">Projects</div>
+        <div className="nav-link" onClick={this.props.hamSwitch}>
+          About
+        </div>
+        <div className="nav-link" onClick={this.props.hamSwitch}>
+          Projects
+        </div>
         <a
           className="nav-link"
           href="https://github.com/flintbean"

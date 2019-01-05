@@ -9,6 +9,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      landing: true,
       hamburger: false
     };
   }

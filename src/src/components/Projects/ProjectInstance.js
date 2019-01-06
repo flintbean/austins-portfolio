@@ -15,11 +15,16 @@ const ProjectInstance = props => {
         </a>
         <p>{props.project.description}</p>
       </div>
-      <img
-        className="project-pic"
-        src={props.project.img}
-        alt={props.project.name}
-      />
+      <a
+        href={props.project.link}
+        style={{ textDecoration: "none" }}
+      >
+        <img
+          className="project-pic"
+          src={props.project.img}
+          alt={props.project.name}
+        />
+      </a>
     </div>
   );
 };

@@ -1,0 +1,27 @@
+.landing {
+  height: 650px;
+  text-align: center;
+  background-image: url("../../assets/Programmer1440x6401.jpg");
+}
+
+.intro-text {
+  width: 400px;
+  position: absolute;
+  left: 34%;
+  top: 30%;
+  font-size: 1.6rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000;
+  font-family: "Permanent Marker";
+}
+
+.next-text {
+  position: absolute;
+  width: 200px;
+  bottom: 20px;
+  left: 40%;
+  font-size: 1.6rem;
+  color: white;
+  font-family: "Permanent Marker";
+  text-shadow: 2px 2px 4px #000;
+}

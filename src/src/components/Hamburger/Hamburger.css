@@ -8,7 +8,7 @@
 }
 .hamburger-ctn {
   position: fixed;
-  right: 20px;
+  right: 3%;
   top: 1px;
 }
 .hamburger-bar {
@@ -17,4 +17,11 @@
   background-color: white;
   margin: 5px 0;
   border-radius: 25px;
+}
+
+@media screen and (max-width: 600px){
+    .hamburger-ctn{
+        right: 10%;
+    }
+    
 }

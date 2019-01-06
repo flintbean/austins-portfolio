@@ -3,15 +3,20 @@
   font-size: 1.6rem;
   border: 2px solid white;
 }
+.about-header{
+    text-align: center;
+}
 .about-text {
   width: 550px;
   font-size: 1.2rem;
   line-height: 12 * 1.618;
   text-align: center;
+  margin-left: 24%;
 }
 
-@media screen and (min-width: 480px){
+@media screen and (max-width: 600px){
     .about-text{
         width: 480px;
+        margin-left: 3%;
     }
 }

@@ -14,6 +14,7 @@ class About extends React.Component {
           explaining on what I like to do and my areas of expertise. The
           languages that I am good with and maybe the schools I went to?
         </p>
+        <h3 className="about-header">Skills</h3>
       </div>
     );
   }

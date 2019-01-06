@@ -1,7 +1,6 @@
 import React from "react";
 import "./Landing.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as Scroll from "react-scroll";
 
 class Landing extends React.Component {
   constructor(props) {
@@ -19,8 +18,11 @@ class Landing extends React.Component {
           </div>
           <div className="next-text">
             Click to Learn More About Me
-            <br/>
-            <FontAwesomeIcon icon="angle-double-down" size="lg" />
+            <br />
+            <FontAwesomeIcon
+              icon="angle-double-down"
+              size="lg"
+            />
           </div>
         </div>
       </React.Fragment>

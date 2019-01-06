@@ -19,7 +19,7 @@ class Header extends React.Component {
         <div className="nav-link" onClick={this.props.hamSwitch}>
           <FontAwesomeIcon icon="user-astronaut" size="lg"/>
         </div>
-        <div className="nav-link" onMouseOver="Projects" onClick={this.props.hamSwitch}>
+        <div className="nav-link" onClick={this.props.hamSwitch}>
           <FontAwesomeIcon icon="folder-open" size="lg"/>
         </div>
         <a

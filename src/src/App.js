@@ -15,7 +15,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 
-library.add(fab, faTimes, faHome, faUserAstronaut, faFolderOpen, faAngleDoubleDown);
+library.add(
+  fab,
+  faTimes,
+  faHome,
+  faUserAstronaut,
+  faFolderOpen,
+  faAngleDoubleDown
+);
 class App extends Component {
   constructor() {
     super();
@@ -32,17 +39,18 @@ class App extends Component {
     this.setState({ landing: !this.state.landing });
   };
 
+
   render() {
     return (
       <Router>
         <React.Fragment>
-          {this.state.landing ? <Landing /> : null}
+          <Landing />
           <Hamburger
             hamburgerSwitch={this.hamburgerSwitch}
             hamburger={this.state.hamburger}
           />
           <div className="App">
-            <About />
+            <About id="about" />
             <Projects />
           </div>
         </React.Fragment>

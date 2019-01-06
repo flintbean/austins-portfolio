@@ -50,8 +50,8 @@ class App extends Component {
           />
           <Route exact path="/" component={Landing} />
           <div className="App">
-            <Route exact path="/about/" component={About} />
-            <Route exact path="/projects/" component={Projects} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/projects" component={Projects} />
           </div>
         </React.Fragment>
       </Router>

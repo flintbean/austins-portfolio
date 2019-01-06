@@ -25,3 +25,15 @@
   font-family: "Permanent Marker";
   text-shadow: 2px 2px 4px #000;
 }
+
+@media screen and (min-width: 480px){
+    .landing{
+        height: 600px;
+    }
+    .intro-text{
+        left: 10%;
+    }
+    .next-text{
+        left: 30%;
+    }
+}

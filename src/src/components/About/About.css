@@ -1,4 +1,17 @@
 .about-ctn {
-    font-size: 1.6rem;
-    border: 2px solid white;
+  width: 100%;
+  font-size: 1.6rem;
+  border: 2px solid white;
+}
+.about-text {
+  width: 550px;
+  font-size: 1.2rem;
+  line-height: 12 * 1.618;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px){
+    .about-text{
+        width: 480px;
+    }
 }

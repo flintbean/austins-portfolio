@@ -1,5 +1,5 @@
 .projects-ctn {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-flow: column nowrap;
   border: 2px solid #ffffff;
@@ -34,4 +34,21 @@
   margin-left: 15px;
   margin-right: 15px;
   border-radius: 25px;
+}
+
+@media screen and (min-width: 480px){
+    .project-pic{
+        max-width: 450px;
+        min-width: 200px;
+    }
+    .project{
+        flex-flow: column wrap;
+    }
+    .rev-project{
+        flex-flow: column wrap;
+    }
+    .text-title{
+        padding: 2% 0;
+        max-width: 480px;
+    }
 }

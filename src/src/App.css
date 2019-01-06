@@ -25,3 +25,8 @@
     transform: rotate(360deg);
   }
 }
+@media screen and (min-width: 480px){
+  .App{
+    width: 480px;
+  }
+}

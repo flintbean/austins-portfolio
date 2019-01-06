@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 600px){
     .project-pic{
-        max-width: 400px;
+        max-width: 350px;
         min-width: 200px;
         height: 200px;
         min-height: 300px;
@@ -51,6 +51,6 @@
     }
     .text-title{
         padding: 3%;
-        width: 380px;
+        width: 370px;
     }
 }

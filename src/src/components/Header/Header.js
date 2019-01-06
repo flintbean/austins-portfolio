@@ -33,6 +33,13 @@ class Header extends React.Component {
         >
           <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
         </a>
+        <a
+          className="nav-link"
+          href="https://www.linkedin.com/in/austin-merando/"
+          style={{ textDecoration: "none" }}
+        >
+          <FontAwesomeIcon icon={["fab","linkedin"]} size="lg" />
+        </a>
       </div>
     );
   }

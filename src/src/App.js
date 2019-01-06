@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Hamburger from "./components/Hamburger/Hamburger";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -39,19 +40,18 @@ class App extends Component {
     this.setState({ landing: !this.state.landing });
   };
 
-
   render() {
     return (
       <Router>
         <React.Fragment>
-          <Landing />
           <Hamburger
             hamburgerSwitch={this.hamburgerSwitch}
             hamburger={this.state.hamburger}
           />
+          <Route exact path="/" component={Landing} />
           <div className="App">
-            <About id="about" />
-            <Projects />
+            <Route exact path="/about/" component={About} />
+            <Route exact path="/projects/" component={Projects} />
           </div>
         </React.Fragment>
       </Router>

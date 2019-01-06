@@ -13,15 +13,19 @@ class Header extends React.Component {
       <div className="header-ctn">
         <Link to="/" style={{ textDecoration: "none" }}>
           <div className="nav-link" onClick={this.props.hamSwitch}>
-            <FontAwesomeIcon icon="home" size="lg"/>
+            <FontAwesomeIcon icon="home" size="lg" />
           </div>
         </Link>
-        <div className="nav-link" onClick={this.props.hamSwitch}>
-          <FontAwesomeIcon icon="user-astronaut" size="lg"/>
-        </div>
-        <div className="nav-link" onClick={this.props.hamSwitch}>
-          <FontAwesomeIcon icon="folder-open" size="lg"/>
-        </div>
+        <Link to="/about/">
+          <div className="nav-link" onClick={this.props.hamSwitch}>
+            <FontAwesomeIcon icon="user-astronaut" size="lg" />
+          </div>
+        </Link>
+        <Link to="/projects">
+          <div className="nav-link" onClick={this.props.hamSwitch}>
+            <FontAwesomeIcon icon="folder-open" size="lg" />
+          </div>
+        </Link>
         <a
           className="nav-link"
           href="https://github.com/flintbean"

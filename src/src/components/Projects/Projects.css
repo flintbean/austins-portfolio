@@ -3,7 +3,6 @@
   display: flex;
   flex-flow: column nowrap;
   border: 2px solid #ffffff;
-  margin-top: 50px;
 }
 
 .project {

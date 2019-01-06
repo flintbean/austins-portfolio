@@ -1,4 +1,5 @@
 import React from "react";
+import Skill from "./Skill";
 import "./About.css";
 class About extends React.Component {
   constructor(props) {
@@ -15,9 +16,48 @@ class About extends React.Component {
           languages that I am good with and maybe the schools I went to?
         </p>
         <h3 className="about-header">Skills</h3>
+        <div className="skills-ctn">
+          {skillsArr.map((item, index) => {
+            return <Skill key={index} skill={item} />;
+          })}
+        </div>
       </div>
     );
   }
 }
 
 export default About;
+
+let skillsArr = [
+  "Agile Project Management",
+  "Algorithms",
+  "Asynchronous JavaScript",
+  "Automated Unit Testing",
+  "Big-O Notation",
+  "Bootstrap",
+  "C Programming",
+  "CSS",
+  "Computer Architecture",
+  "Data Structures",
+  "Django",
+  "Express JS",
+  "Graphs",
+  "HTML",
+  "Integration Testing",
+  "JavaScript",
+  "LESS",
+  "MongoDB",
+  "Node JS",
+  "Project Management",
+  "Python",
+  "RESTful Architecture",
+  "React",
+  "Redux",
+  "Relational Databases",
+  "Responsive Design",
+  "Responsive Programming",
+  "SQL",
+  "Single Page Applications",
+  "Teamwork & Collaboration",
+  "Time Management Techniques"
+];

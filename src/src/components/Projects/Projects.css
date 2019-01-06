@@ -22,6 +22,7 @@
   line-height: 12 * 1.618;
 }
 .project-title {
+  font-family: "Permanent Marker";
   width: 100%;
   order: 0;
   text-shadow: 2px 2px 5px grey;

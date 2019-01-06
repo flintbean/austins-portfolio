@@ -4,6 +4,7 @@
   border: 2px solid white;
 }
 .about-header{
+    font-family: "Permanent Marker";
     text-align: center;
 }
 .about-text {
@@ -12,6 +13,22 @@
   line-height: 12 * 1.618;
   text-align: center;
   margin-left: 24%;
+}
+.skills-ctn{
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    line-height: 3rem;
+}
+.skill-item{
+    margin: .5%;
+    padding: 1%;
+    font-size: 1rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px grey;
+    background-color: lightskyblue;
+    font-family: "Permanent Marker"
 }
 
 @media screen and (max-width: 600px){

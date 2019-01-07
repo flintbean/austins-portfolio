@@ -9,7 +9,7 @@ const ProjectInstance = props => {
         <a
           className="project-title"
           href={props.project.link}
-          style={{ textDecoration: "none", color: "#FF0000" }}
+          style={{ textDecoration: "none", color: "#00cab9" }}
         >
           {props.project.name}
         </a>

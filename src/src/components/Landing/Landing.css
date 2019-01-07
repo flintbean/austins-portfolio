@@ -1,7 +1,9 @@
 .landing {
-  height: 630px;
   text-align: center;
   background-image: url("../../assets/Programmer1440x6401.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 935px;
 }
 
 .intro-text {
@@ -26,17 +28,17 @@
   text-shadow: 2px 2px 4px #000;
 }
 
-@media screen and (max-width: 600px){
-    .landing{
-        height: 645px;
-    }
-    .intro-text{
-        top: 30%;
-        width: 60%;
-        left: 5%;
-    }
-    .next-text{
-        width: 30%;
-        left: 30%;
-    }
+@media screen and (max-width: 600px) {
+  .landing {
+    height: 645px;
+  }
+  .intro-text {
+    top: 30%;
+    width: 60%;
+    left: 5%;
+  }
+  .next-text {
+    width: 30%;
+    left: 30%;
+  }
 }

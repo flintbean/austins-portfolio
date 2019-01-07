@@ -29,19 +29,18 @@ class About extends React.Component {
 export default About;
 
 let skillsArr = [
-  "Agile Project Management",
-  "Automated Unit Testing",
   "C Programming",
   "CSS",
   "Django",
   "Express JS",
   "HTML",
-  "Integration Testing",
   "JavaScript",
   "LESS",
   "MongoDB",
   "Node JS",
   "Python",
   "React",
-  "SQL"
+  "SQL",
+  "C++",
+  "Express"
 ];

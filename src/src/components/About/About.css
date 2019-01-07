@@ -15,7 +15,8 @@
   margin-left: 24%;
 }
 .skills-ctn{
-    max-width: 100%;
+    max-width: 90%;
+    padding: 0% 10%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;

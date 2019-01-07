@@ -15,6 +15,13 @@ import {
   faAngleDoubleDown
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
+import { TimelineLite, CSSPlugin, AttrPlugin, TweenLite }  from "gsap/all";
+
+//without this line, CSSPlugin and AttrPlugin may get dropped by your bundler...
+const plugins = [ CSSPlugin, AttrPlugin ];
+
+var tl = new TimelineLite();
+
 
 library.add(
   fab,
@@ -40,6 +47,13 @@ class App extends Component {
     this.setState({ landing: !this.state.landing });
   };
 
+  scrollTween = location => {
+    // var about = document.getElementById("about");
+    // TweenLite.to(window, 2, {scrollTo: about});
+    console.log("Clicked")
+
+  };
+
   render() {
     return (
       <Router>
@@ -48,10 +62,10 @@ class App extends Component {
             hamburgerSwitch={this.hamburgerSwitch}
             hamburger={this.state.hamburger}
           />
-          <Route exact path="/" component={Landing} />
+          <Landing scrollTween={this.scrollTween} />
           <div className="App">
-            <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
+            <About id="about" />
+            <Projects id="projects" />
           </div>
         </React.Fragment>
       </Router>

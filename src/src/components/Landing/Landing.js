@@ -20,6 +20,7 @@ class Landing extends React.Component {
           <div className="next-text" onClick={this.props.scrollTween}>
             Click to Learn More About Me
             <br />
+            <br />
             <FontAwesomeIcon icon="angle-double-down" size="lg" />
           </div>
         </div>

@@ -38,3 +38,10 @@
     width: 355px;
   }
 }
+
+/* Tablets */
+@media screen and (max-width: 1030px){
+  .App{
+    width: 1010px;
+  }
+}

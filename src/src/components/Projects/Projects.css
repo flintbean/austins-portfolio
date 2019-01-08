@@ -13,11 +13,11 @@
 .rev-project {
   display: flex;
   flex-direction: row-reverse;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .text-title {
   width: 550px;
-  padding: 10% 6%;
+  padding: 9% 6%;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 12 * 1.618;
@@ -36,7 +36,7 @@
   height: 400px;
   min-height: 400px;
   margin-left: 2%;
-  margin-right: 1%;
+  margin-right: 2%;
   border: 2px solid black;
   border-radius: 25px;
   box-shadow: 10px 10px 5px grey;
@@ -44,9 +44,6 @@
 @media screen and (max-width: 1400px){
   .text-title{
     width: 420px;
-  }
-  .project-pic{
-    
   }
 }
 

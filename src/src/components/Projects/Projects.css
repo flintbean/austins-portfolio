@@ -26,9 +26,10 @@
 .project-title {
   font-weight: 900;
   font-size: 1.6rem;
+  color: #08b8a9;
   width: 100%;
   order: 0;
-  text-shadow: 2px 2px 5px grey;
+  font-family: "Cantarell"
 }
 .project-pic {
   width: 500px;

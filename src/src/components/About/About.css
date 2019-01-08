@@ -4,7 +4,7 @@
   border: 2px solid white;
 }
 .about-header{
-    font-family: "Permanent Marker";
+    font-family: 'Cantarell';
     text-align: center;
 }
 .about-text {
@@ -29,7 +29,7 @@
     border: 1px solid black;
     box-shadow: 5px 5px 5px grey;
     background-color: #00cab9;
-    font-family: "Permanent Marker";
+    font-family: 'Cantarell';
     border-radius: 25px;
 }
 

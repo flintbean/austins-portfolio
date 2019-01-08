@@ -9,16 +9,13 @@ const ProjectInstance = props => {
         <a
           className="project-title"
           href={props.project.link}
-          style={{ textDecoration: "none", color: "#00cab9" }}
+          style={{ textDecoration: "none" }}
         >
           {props.project.name}
         </a>
         <p>{props.project.description}</p>
       </div>
-      <a
-        href={props.project.link}
-        style={{ textDecoration: "none" }}
-      >
+      <a href={props.project.link} style={{ textDecoration: "none" }}>
         <img
           className="project-pic"
           src={props.project.img}

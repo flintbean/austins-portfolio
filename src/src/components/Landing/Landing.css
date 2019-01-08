@@ -44,3 +44,27 @@
     left: 30%;
   }
 }
+@media screen and (max-width: 400px) {
+  .landing{
+    width: 364px;
+    height: 655px;
+  }
+  .intro-text{
+    top: 21%;
+    left: 18%;
+  }
+  .next-text{
+    left: 33%;
+  }
+}
+@media screen and (max-width: 330px) {
+  .intro-text{
+    font-size: 1.8rem;
+    top: 14%;
+    left: 24%;
+  }
+  .next-text{
+    left: 38%;
+    bottom: -50px;
+  }
+}

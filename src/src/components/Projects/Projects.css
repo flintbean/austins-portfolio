@@ -29,7 +29,7 @@
   color: #08b8a9;
   width: 100%;
   order: 0;
-  font-family: "Cantarell"
+  font-family: "Cantarell";
 }
 .project-pic {
   width: 500px;
@@ -43,21 +43,31 @@
   box-shadow: 10px 10px 5px grey;
 }
 
-@media screen and (max-width: 600px){
-    .project-pic{
-        max-width: 350px;
-        min-width: 200px;
-        height: 200px;
-        min-height: 300px;
-    }
-    .project{
-        flex-flow: column wrap;
-    }
-    .rev-project{
-        flex-flow: column wrap;
-    }
-    .text-title{
-        padding: 3%;
-        width: 370px;
-    }
+@media screen and (max-width: 600px) {
+  .project-pic {
+    max-width: 350px;
+    min-width: 200px;
+    height: 200px;
+    min-height: 300px;
+  }
+  .project {
+    flex-flow: column wrap;
+  }
+  .rev-project {
+    flex-flow: column wrap;
+  }
+  .text-title {
+    padding: 3%;
+    width: 370px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .project-pic {
+    max-width: 300px;
+  }
+  .text-title {
+    padding: 3%;
+    width: 340px;
+    font-size: 1rem;
+  }
 }

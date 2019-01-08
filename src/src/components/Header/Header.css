@@ -21,3 +21,15 @@
 .nav-link:hover {
   color: #08b8a9;
 }
+
+@media screen and (max-width: 400px) {
+  .nav-link{
+    margin-left: 25%;
+    margin-top: 18%;
+  }
+}
+@media screen and (max-width: 330px) {
+  .nav-link{
+    margin-left: 23%;
+  }
+}

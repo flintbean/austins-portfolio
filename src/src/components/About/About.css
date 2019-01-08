@@ -39,3 +39,8 @@
         margin-left: 3%;
     }
 }
+@media screen and (max-width: 365px) {
+    .about-text{
+        font-size: 1rem;
+    }
+}

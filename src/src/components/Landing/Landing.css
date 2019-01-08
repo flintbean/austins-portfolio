@@ -22,7 +22,7 @@
 .next-text {
   position: absolute;
   width: 15%;
-  bottom: 20px;
+  bottom: 11%;
   left: 43.5%;
   font-size: 1.6rem;
   color: white;
@@ -44,17 +44,19 @@
     left: 30%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 365px) {
   .landing{
-    width: 364px;
-    height: 655px;
+    width: 330px;
+    height: 590px;
   }
   .intro-text{
-    top: 21%;
-    left: 18%;
+    font-size: 1.5rem;
+    top: 24%;
+    left: 15%;
   }
   .next-text{
-    left: 33%;
+    left: 30%;
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 330px) {

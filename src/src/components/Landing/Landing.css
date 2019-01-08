@@ -29,7 +29,14 @@
   font-family: 'Cantarell';
   text-shadow: 2px 2px 4px #000;
 }
-
+@media screen and (max-width: 1400px){
+  .landing{
+    height: 660px;
+  }
+  .next-text{
+    bottom: 3%;
+  }
+}
 @media screen and (max-width: 600px) {
   .landing {
     height: 645px;
@@ -46,16 +53,17 @@
 }
 @media screen and (max-width: 365px) {
   .landing{
-    width: 330px;
-    height: 590px;
+    max-width: 360px;
+    height: 600px;
   }
   .intro-text{
     font-size: 1.5rem;
     top: 24%;
-    left: 15%;
+    left: 16%;
   }
   .next-text{
     left: 30%;
+    bottom: 8%;
     font-size: 1.5rem;
   }
 }

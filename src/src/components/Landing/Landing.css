@@ -96,13 +96,13 @@
     bottom: -50px;
   }
 }
-@media screen and (min-height: 750px ){
+/* @media screen and (min-height: 750px ){
   .landing{
     height: 800px;
   }
-}
+} */
 /* Tablets */
-@media screen and (max-width: 1030px){
+/* @media screen and (max-width: 1030px){
   .landing{
     width: 1030px;
   }
@@ -114,8 +114,8 @@
     bottom: 25%;
     left: 63%;
   }
-}
-
+} */
+/* 
 @media screen and (max-width: 1370px){
   .intro-text{
     left: 35%;
@@ -124,4 +124,4 @@
     bottom: 43%;
     left: 42%;
   }
-}
+} */

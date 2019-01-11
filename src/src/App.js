@@ -44,7 +44,7 @@ class App extends Component {
   };
 
   scrollTween = location => {
-    TweenLite.to(window, 1, {scrollTo: "#about"});
+    TweenLite.to(window, 2, {scrollTo: "#about"});
   };
 
   render() {

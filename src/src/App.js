@@ -14,10 +14,10 @@ import {
   faAngleDoubleDown
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
-import {  CSSPlugin, AttrPlugin, TweenLite }  from "gsap/all";
+import {  CSSPlugin, AttrPlugin, TweenLite, ScrollToPlugin }  from "gsap/all";
 
 //without this line, CSSPlugin and AttrPlugin may get dropped by your bundler...
-const plugins = [ CSSPlugin, AttrPlugin ];
+const plugins = [ CSSPlugin, AttrPlugin, ScrollToPlugin ];
 
 library.add(
   fab,
@@ -44,7 +44,7 @@ class App extends Component {
   };
 
   scrollTween = location => {
-    TweenLite.to(window, 2, {scrollTo: "#about"});
+    TweenLite.to(window, 1, {scrollTo: "#about"});
   };
 
   render() {

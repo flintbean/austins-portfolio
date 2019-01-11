@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Landing.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -17,13 +16,13 @@ class Landing extends React.Component {
             Hi, I'm Austin. A Full Stack Web Developer Working Out of Southern
             California
           </div>
-          <a href="#about">
+         
             <div className="next-text" onClick={this.props.scrollTween}>
               Click to Learn More About Me
               <br />
               <FontAwesomeIcon icon="angle-double-down" size="lg" />
             </div>
-          </a>
+         
         </div>
       </React.Fragment>
     );

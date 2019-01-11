@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Route } from "react-router-dom";
 import Hamburger from "./components/Hamburger/Hamburger";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
@@ -15,13 +14,10 @@ import {
   faAngleDoubleDown
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
-import { TimelineLite, CSSPlugin, AttrPlugin, TweenLite }  from "gsap/all";
+import {  CSSPlugin, AttrPlugin, TweenLite }  from "gsap/all";
 
 //without this line, CSSPlugin and AttrPlugin may get dropped by your bundler...
 const plugins = [ CSSPlugin, AttrPlugin ];
-
-var tl = new TimelineLite();
-
 
 library.add(
   fab,
@@ -48,10 +44,7 @@ class App extends Component {
   };
 
   scrollTween = location => {
-    // var about = document.getElementById("about");
-    // TweenLite.to(window, 2, {scrollTo: about});
-    console.log("Clicked")
-
+    TweenLite.to(window, 1, {scrollTo: "#about"});
   };
 
   render() {

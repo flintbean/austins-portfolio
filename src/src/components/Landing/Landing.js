@@ -17,11 +17,13 @@ class Landing extends React.Component {
             Hi, I'm Austin. A Full Stack Web Developer Working Out of Southern
             California
           </div>
-          <div className="next-text" onClick={this.props.scrollTween}>
-            Click to Learn More About Me
-            <br />
-            <FontAwesomeIcon icon="angle-double-down" size="lg" />
-          </div>
+          <a href="#about">
+            <div className="next-text" onClick={this.props.scrollTween}>
+              Click to Learn More About Me
+              <br />
+              <FontAwesomeIcon icon="angle-double-down" size="lg" />
+            </div>
+          </a>
         </div>
       </React.Fragment>
     );

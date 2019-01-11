@@ -63,9 +63,9 @@ class App extends Component {
             hamburger={this.state.hamburger}
           />
           <Landing scrollTween={this.scrollTween} />
-          <div className="App">
-            <About id="about" />
-            <Projects id="projects" />
+          <div className="App" id="about">
+            <About />
+            <Projects />
           </div>
         </React.Fragment>
       </Router>

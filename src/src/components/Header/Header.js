@@ -11,14 +11,14 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header-ctn" onClick={this.props.hamSwitch}>
-        <NavLink to="/" className="nav-link" style={{ textDecoration: "none" }}>
+        <a href="#home" className="nav-link" style={{ textDecoration: "none" }}>
           <div onClick={this.props.hamSwitch}>
             <FontAwesomeIcon icon="home" size="lg" />
             &nbsp;&nbsp; Home
           </div>
-        </NavLink>
-        <NavLink
-          to="/about/"
+        </a>
+        <a
+          href="#about"
           className="nav-link"
           style={{ textDecoration: "none" }}
         >
@@ -26,9 +26,9 @@ class Header extends React.Component {
             <FontAwesomeIcon icon="user-astronaut" size="lg" />
             &nbsp;&nbsp; About
           </div>
-        </NavLink>
-        <NavLink
-          to="/projects"
+        </a>
+        <a
+          href="#about"
           className="nav-link"
           style={{ textDecoration: "none" }}
         >
@@ -36,7 +36,7 @@ class Header extends React.Component {
             <FontAwesomeIcon icon="folder-open" size="lg" />
             &nbsp;&nbsp; Projects
           </div>
-        </NavLink>
+        </a>
         <a
           className="nav-link"
           href="https://github.com/flintbean"

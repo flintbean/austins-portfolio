@@ -57,7 +57,7 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <React.Fragment>
+        <div id="home">
           <Hamburger
             hamburgerSwitch={this.hamburgerSwitch}
             hamburger={this.state.hamburger}
@@ -67,7 +67,7 @@ class App extends Component {
             <About />
             <Projects />
           </div>
-        </React.Fragment>
+        </div>
       </Router>
     );
   }

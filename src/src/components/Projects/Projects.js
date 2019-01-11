@@ -13,7 +13,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <div className="projects-ctn">
+      <div className="projects-ctn" id="projects">
         <h1 style={{fontFamily: "Cantarell"}}>Projects</h1>
         {projects.map(project => {
           return <ProjectInstance key={project.id} project={project} />;

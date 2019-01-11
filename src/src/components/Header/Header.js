@@ -27,7 +27,7 @@ class Header extends React.Component {
           </div>
         </a>
         <a
-          href="#about"
+          href="#projects"
           className="nav-link"
           style={{ textDecoration: "none" }}
         >

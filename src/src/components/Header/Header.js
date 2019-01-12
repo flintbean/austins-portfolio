@@ -52,6 +52,14 @@ class Header extends React.Component {
           <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
           &nbsp;&nbsp; Linked In
         </a>
+        <a
+          className="nav-link"
+          href="https://drive.google.com/file/d/0B35aJT_My0BZQzNLX3RZWmk3Zl9ObzhpZXMtRDhsMWI4a0Y0/view?usp=sharing"
+          style={{ textDecoration: "none" }}
+        >
+          <FontAwesomeIcon icon="file-alt" size="lg" />
+          &nbsp;&nbsp; Résumé
+        </a>
       </div>
     );
   }

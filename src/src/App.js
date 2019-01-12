@@ -11,7 +11,8 @@ import {
   faHome,
   faUserAstronaut,
   faFolderOpen,
-  faAngleDoubleDown
+  faAngleDoubleDown,
+  faFileAlt
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 import {  CSSPlugin, AttrPlugin, TweenLite, ScrollToPlugin }  from "gsap/all";
@@ -25,7 +26,8 @@ library.add(
   faHome,
   faUserAstronaut,
   faFolderOpen,
-  faAngleDoubleDown
+  faAngleDoubleDown,
+  faFileAlt
 );
 class App extends Component {
   constructor() {

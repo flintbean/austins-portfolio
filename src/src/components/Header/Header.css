@@ -1,6 +1,7 @@
 .header-ctn {
   display: flex;
   flex-flow: column nowrap;
+  justify-content: space-around;
   margin: auto;
   position: fixed;
   top: 0;
@@ -13,7 +14,6 @@
 .nav-link {
   width: max-content;
   margin-left: 42%;
-  margin-top: 5%;
   color: white;
   font-size: 2rem;
 }

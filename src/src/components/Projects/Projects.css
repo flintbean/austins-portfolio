@@ -7,21 +7,23 @@
 
 .project {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 .rev-project {
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
   margin-bottom: 30px;
 }
 .text-title {
   width: 550px;
-  padding: 9% 6%;
+  align-self: center;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 12 * 1.618;
-}
+  padding: 0 3%; 
+} 
 .project-title {
   font-weight: 900;
   font-size: 1.6rem;

@@ -1,7 +1,7 @@
 .header-ctn {
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: auto;
   position: fixed;
   top: 0;
@@ -23,18 +23,19 @@
 }
 @media screen and (max-width: 425px){
   .nav-link{
-    margin-top: 20%;
     margin-left: 26%;
   }
 }
 @media screen and (max-width: 400px) {
   .nav-link{
     margin-left: 25%;
-    margin-top: 20%;
   }
 }
 @media screen and (max-width: 330px) {
   .nav-link{
     margin-left: 23%;
+  }
+  .header-ctn{
+    
   }
 }

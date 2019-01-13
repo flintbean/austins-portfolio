@@ -7,14 +7,20 @@
 
 .project {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
+  justify-content: space-around;
+  margin-bottom: 60px;
 }
 .rev-project {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between;
-  margin-bottom: 30px;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+.info-ctn{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  height: 400px;
 }
 .text-title {
   width: 550px;
@@ -22,8 +28,15 @@
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 12 * 1.618;
-  padding: 0 3%; 
-} 
+}
+.proj-nav-ctn{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  height: 40px;
+  border: 2px solid black;
+}
 .project-title {
   font-weight: 900;
   font-size: 1.6rem;
@@ -43,8 +56,27 @@
   border-radius: 25px;
   box-shadow: 10px 10px 5px grey;
 }
-@media screen and (max-width: 1400px){
-  .text-title{
+.tech-ctn {
+  max-width: 75%;
+  margin-top: 2%;
+  margin-left: 13%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.tech-item {
+  padding: 5px;
+  line-height: 2.5rem;
+  margin-right: 2%;
+  box-shadow: 5px 5px 5px grey;
+  color: black;
+  background-color: #00cab9;
+  font-weight: 500;
+  font-family: "Cantarell";
+  border-radius: 25px;
+}
+@media screen and (max-width: 1400px) {
+  .text-title {
     width: 420px;
   }
 }

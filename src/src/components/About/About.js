@@ -9,11 +9,9 @@ class About extends React.Component {
   render() {
     return (
       <div className="about-ctn">
-        <h3 className="about-header">About Me</h3>
+        <h3 className="about-header">Summary</h3>
         <p className="about-text">
-          This is where I am going to put a picture of myself and do a little
-          explaining on what I like to do and my areas of expertise. The
-          languages that I am good with and maybe the schools I went to?
+          I am a <strong>Full-Stack Web Developer</strong> specializing in all things JavaScript
         </p>
         <h3 className="about-header">Skills</h3>
         <div className="skills-ctn">

@@ -30,6 +30,7 @@ const projects = [
     id: 1,
     name: "Teamcomm",
     link: "https://www.teamcomm.app/landing",
+    gitLink: "https://github.com/Lambda-School-Labs/Labs8-TeamComms",
     img: teamcomm,
     description:
       "A web app that helps distributed or remote teams with real-time document collaboration and scheduling meetings. Team Communicator is built with a React/Redux frontend (deployed to Netlify) and Node/Express backend (deployed to Heroku).",
@@ -50,6 +51,7 @@ const projects = [
     id: 2,
     name: "Conways Game of Life",
     link: "https://flintbean.github.io/Conways-Life/",
+    gitLink: "https://github.com/LambdaSchool/Conways-Life",
     img: conways,
     description:
       "Web app that shows cell replication using the rules from Conways Game of Life. Done completely in React and deployed to gitpages",
@@ -59,6 +61,7 @@ const projects = [
     id: 3,
     name: "Lambda Mud",
     link: "https://lambdamud.austinmerando.com/",
+    gitLink: "https://github.com/flintbean/LambdaMUD-Project",
     img: lambdamud,
     description:
       "Mud game using React for front-end and Python(Django) for back-end. Sockets are used for real-time chat between players",

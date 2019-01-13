@@ -7,24 +7,24 @@
 
 .project {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 60px;
 }
 .rev-project {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 60px;
 }
 .info-ctn{
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 400px;
 }
 .text-title {
   width: 550px;
-  align-self: center;
+  margin-top: 10px;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 12 * 1.618;
@@ -36,6 +36,12 @@
   padding-top: 15px;
   height: 40px;
   border: 2px solid black;
+}
+.proj-link{
+  color: black;
+}
+.proj-link:hover {
+  color: #08b8a9;
 }
 .project-title {
   font-weight: 900;
@@ -50,11 +56,11 @@
   min-width: 500px;
   height: 400px;
   min-height: 400px;
-  margin-left: 2%;
-  margin-right: 2%;
   border: 2px solid black;
   border-radius: 25px;
   box-shadow: 10px 10px 5px grey;
+}
+.pic-tech-ctn{
 }
 .tech-ctn {
   max-width: 75%;
@@ -82,11 +88,14 @@
 }
 
 @media screen and (max-width: 600px) {
+  .info-ctn{
+    height: 200px;
+  }
   .project-pic {
     max-width: 350px;
     min-width: 200px;
     height: 200px;
-    min-height: 300px;
+    min-height: 200px;
   }
   .project {
     flex-flow: column wrap;

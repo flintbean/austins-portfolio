@@ -16,11 +16,17 @@ const ProjectInstance = props => {
             {props.project.name}
           </a>
           <p>{props.project.description}</p>
-          <div className="proj-nav-ctn">
-            <FontAwesomeIcon icon="code"/>
-            <FontAwesomeIcon icon="external-link-alt"/>
-            <FontAwesomeIcon />
-          </div>
+        </div>
+        <div className="proj-nav-ctn">
+          <a className="proj-link" href={props.project.gitLink} style={{ textDecoration: "none" }}>
+            <FontAwesomeIcon icon="code" size="lg" />
+          </a>
+          <a className="proj-link" href={props.project.link} style={{ textDecoration: "none"}}>
+            <FontAwesomeIcon
+              icon="external-link-alt"
+              size="lg"
+            />
+          </a>
         </div>
       </div>
       <div className="pic-tech-ctn">

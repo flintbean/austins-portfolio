@@ -17,10 +17,10 @@ import {
   faExternalLinkAlt
 } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
-import {  CSSPlugin, AttrPlugin, TweenLite, ScrollToPlugin }  from "gsap/all";
+import {  CSSPlugin, TweenLite, ScrollToPlugin }  from "gsap/all";
 
 //without this line, CSSPlugin and AttrPlugin may get dropped by your bundler...
-const plugins = [ CSSPlugin, AttrPlugin, ScrollToPlugin ];
+const plugins = [ CSSPlugin, ScrollToPlugin ];
 
 library.add(
   fab,

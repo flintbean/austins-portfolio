@@ -11,7 +11,7 @@ class About extends React.Component {
       <div className="about-ctn">
         <h3 className="about-header">Summary</h3>
         <p className="about-text">
-          I am a <strong>Full-Stack Web Developer</strong> specializing in all things JavaScript
+          I am a <strong>Full-Stack Web Developer</strong> specializing in all things Java
         </p>
         <h3 className="about-header">Skills</h3>
         <div className="skills-ctn">
@@ -33,6 +33,7 @@ let skillsArr = [
   "Express JS",
   "HTML",
   "JavaScript",
+  "Java"
   "LESS",
   "MongoDB",
   "Node JS",

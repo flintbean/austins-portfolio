@@ -33,7 +33,7 @@ let skillsArr = [
   "Express JS",
   "HTML",
   "JavaScript",
-  "Java"
+  "Java",
   "LESS",
   "MongoDB",
   "Node JS",
